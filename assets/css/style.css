@@ -5,7 +5,9 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-
+body {
+    background: #fcfcfc;
+}
 header {
 
     background-color: #0c0c0c;
@@ -27,6 +29,7 @@ header {
     color: #fff;
 }
 
+
 .nav-list {
    display: flex;
    align-items: center;
@@ -42,7 +45,6 @@ header {
 
 .item-nav {
   margin: 0 15px;
-  
 }
 
 .link-item {
@@ -50,6 +52,78 @@ header {
   font-size: 1.15rem;
   color: #fff;
   font-weight: 400;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-principal h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-principal p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-final {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-final p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-final span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 @media screen and (max-width: 730px) {
@@ -68,6 +142,3 @@ header {
         display: block;
     }
 }
-
-
-
